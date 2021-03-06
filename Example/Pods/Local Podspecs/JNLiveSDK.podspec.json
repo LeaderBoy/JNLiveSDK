@@ -1,0 +1,42 @@
+{
+  "name": "JNLiveSDK",
+  "version": "0.0.2",
+  "summary": "JNLiveSDK is my sdk",
+  "description": "简单的测试一下这个sdkThe description is shorter than the summary.The description is shorter than the summary.The description is shorter than the summary.The description is shorter than the summary.",
+  "homepage": "https://github.com/LeaderBoy/JNLiveSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LeaderBoy": "748603349@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LeaderBoy/JNLiveSDK.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "JNLiveSDK/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "JNLiveSDK": [
+      "JNLiveSDK/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/JNLiveSDK.h",
+  "frameworks": [
+    "UIKit",
+    "AVKit",
+    "Foundation"
+  ],
+  "static_framework": true,
+  "dependencies": {
+    "YBImageBrowser": [
+      "~> 3.0.9"
+    ],
+    "YYImage": [
+
+    ]
+  }
+}

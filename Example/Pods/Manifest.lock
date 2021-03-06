@@ -1,0 +1,38 @@
+PODS:
+  - JNLiveSDK (0.0.2):
+    - YBImageBrowser (~> 3.0.9)
+    - YYImage
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
+  - YBImageBrowser (3.0.9):
+    - YBImageBrowser/Core (= 3.0.9)
+  - YBImageBrowser/Core (3.0.9):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - JNLiveSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - YBImageBrowser
+    - YYImage
+
+EXTERNAL SOURCES:
+  JNLiveSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JNLiveSDK: 214ae0d5073fc400af8c5d116ca19d97112219d9
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
+  YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 1c98cb14b515c17ac8367328efbd3e47b7b0db13
+
+COCOAPODS: 1.7.5

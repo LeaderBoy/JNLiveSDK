@@ -1,0 +1,6 @@
+framework module JNLiveSDK {
+  umbrella header "JNLiveSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
