@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JNLiveSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'JNLiveSDK is my sdk'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
      'JNLiveSDK' => ['JNLiveSDK/Assets/*.png']
    }
 
-   s.public_header_files = 'Pod/Classes/JNLiveSDK.h'
+   s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'AVKit','Foundation'
    s.static_framework = true
    s.dependency 'YBImageBrowser', '~> 3.0.9'
