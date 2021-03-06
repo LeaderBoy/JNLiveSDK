@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JNLiveSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'JNLiveSDK is my sdk'
 
 # This description is used to generate tags and improve search results.
